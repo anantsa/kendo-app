@@ -24,13 +24,13 @@
       </mat-select>
     </mat-form-field>
 </div>
-<div class="table-container">
+<div class="table-container" fxLayout="column" fxFlexFill>
   <kendo-grid class="table-dimension"
     [style.height.%]="100"
     [data]="sampleProducts" 
     [resizable]="true" 
     [pageSize]="5"
-    [reorderable]="true">    
+    [reorderable]="true" fxFlex="100%">    
       <kendo-grid-column 
         [headerStyle]="{'background-color':'rgb(59, 148, 226)', 'color': '#fff'}"
         title="ID" 
