@@ -12,7 +12,7 @@ import { getLocaleTimeFormat } from '@angular/common';
 })
 export class AppComponent {
   // page size
-  public pageSize = 50;
+
   public data: any[];
 
   title = 'kendo-app';
@@ -33,7 +33,7 @@ export class AppComponent {
   constructor(private ngZone: NgZone) { }
   public ngAfterViewInit() {
     this.fitColumns();
-    data: this.pageSize;
+
   }
   public onDataStateChange() {
     this.fitColumns();

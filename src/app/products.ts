@@ -178,6 +178,186 @@ export const sampleProducts = [
             "Description": "Seaweed and fish"
         },
         "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 11,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 12,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 13,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 14,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 15,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 16,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 17,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 18,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 19,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
+    },
+    {
+        "ProductID": 20,
+        "ProductName": "Ikura",
+        "SupplierID": 4,
+        "CategoryID": 8,
+        "QuantityPerUnit": "12 - 200 ml jars",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false,
+        "Category": {
+            "CategoryID": 8,
+            "CategoryName": "Seafood",
+            "Description": "Seaweed and fish"
+        },
+        "FirstOrderedOn": new Date(1996, 8, 5)
     }
 ];
 
