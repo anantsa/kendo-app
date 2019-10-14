@@ -1,4 +1,14 @@
 .text-box {
   margin-bottom: 5px;
 }
+
+.table-dimension .k-grid thead {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.table-dimension th.k-header {
+  background-color: #3b94e2 !important;
+  color: #fff;
+}
 /*# sourceMappingURL=app.component.css.map */

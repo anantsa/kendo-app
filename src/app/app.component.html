@@ -1,32 +1,55 @@
-<div fxLayout="column" fxLayoutAlign="center center">
+<div>
   <!-- <button kendoButton (click)="onButtonClick()" [primary]="true">
     Click Here
   </button>   -->
   <kendo-textbox-container floatingLabel="Your Full Name">
     <input class="text-box" kendoTextBox>
     <kendo-datepicker 
-    [formatPlaceholder]="{year: 'Y', month:'M', day:'D'}" 
-    [navigation]="false" 
-    [readonly]="false"      
-    [min]="min" 
-    [max]="max" 
-    (click)="dateChange()" 
-    [format]="'dd-MM-yyyy'">
+      [formatPlaceholder]="{year: 'Y', month:'M', day:'D'}" 
+      [navigation]="false" 
+      [readonly]="false"      
+      [min]="min" 
+      [max]="max" 
+      (click)="dateChange()" 
+      [format]="'dd-MM-yyyy'">
     </kendo-datepicker>
   </kendo-textbox-container>
-  <kendo-grid [height]="350" [kendoGridBinding]="sampleProducts" [resizable]="true" [reorderable]="true">
-    <kendo-grid-column-group title="Products Information">
-      <kendo-grid-column title="ID" field="ProductID">
-      </kendo-grid-column>
-      <kendo-grid-column title="Product Name" field="ProductName">
-      </kendo-grid-column>
-      <kendo-grid-column title="Supplier ID" field="SupplierID">
-      </kendo-grid-column>
-      <kendo-grid-column title="Category" field="Category.CategoryName">
-      </kendo-grid-column>
-      <kendo-grid-column title="Description" field="Category.Description">
-      </kendo-grid-column>
-    </kendo-grid-column-group>
-  </kendo-grid>
 </div>
+  <kendo-grid class="table-dimension"
+    [height]="420"
+    [pageSize]="this.pageSize"
+    [data]="sampleProducts" 
+    [resizable]="true" 
+    [reorderable]="true">    
+      <kendo-grid-column 
+        [headerStyle]="{'background-color':'rgb(59, 148, 226)', 'color': '#fff'}"
+        title="ID" 
+        field="ProductID" 
+        width="40">
+      </kendo-grid-column>
+      <kendo-grid-column 
+        [headerStyle]="{'background-color':'rgb(59, 148, 226)', 'color': '#fff'}"
+        title="Product Name" 
+        field="ProductName" 
+        width="120">
+      </kendo-grid-column>
+      <kendo-grid-column 
+        [headerStyle]="{'background-color':'rgb(59, 148, 226)', 'color': '#fff'}"
+        title="Supplier ID" 
+        field="SupplierID" 
+        width="100">
+      </kendo-grid-column>
+      <kendo-grid-column 
+        [headerStyle]="{'background-color':'rgb(59, 148, 226)', 'color': '#fff'}"
+        title="Category" 
+        field="Category.CategoryName" 
+        width="100">
+      </kendo-grid-column>
+      <kendo-grid-column 
+        [headerStyle]="{'background-color':'rgb(59, 148, 226)', 'color': '#fff'}"
+        title="Description" 
+        field="Category.Description" 
+        width="150">
+      </kendo-grid-column>
+  </kendo-grid>
 <router-outlet></router-outlet>

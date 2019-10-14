@@ -11,9 +11,12 @@ import { getLocaleTimeFormat } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  // page size
+  public pageSize = 50;
+  public data: any[];
+
   title = 'kendo-app';
   public sampleProducts: any[] = sampleProducts;
-  public gridData: any[] = products;
 
   // two-way data-binding with datepicker  
   value: Date = new Date();
@@ -23,7 +26,6 @@ export class AppComponent {
   dateChange() {
     console.log('consoling ::', this.value);
   }
-
   // fiting columns
   @ViewChild(GridComponent)
   public grid: GridComponent;
@@ -31,6 +33,7 @@ export class AppComponent {
   constructor(private ngZone: NgZone) { }
   public ngAfterViewInit() {
     this.fitColumns();
+    data: this.pageSize;
   }
   public onDataStateChange() {
     this.fitColumns();
@@ -42,18 +45,5 @@ export class AppComponent {
   }
 
 }
-
-const products = [{
-  "ProductID": 1,
-  "ProductName": "Chai",
-  "UnitPrice": 18.0000,
-  "Discontinued": true
-}, {
-  "ProductID": 2,
-  "ProductName": "Chang",
-  "UnitPrice": 19.0000,
-  "Discontinued": false
-}
-];
 
 

@@ -1,3 +1,16 @@
 .text-box {
     margin-bottom:5px;
 }
+.table-dimension {
+    .k-grid {
+        thead {
+            position: sticky;
+        }
+    }
+    th.k-header {
+        background-color: rgb(59, 148, 226) !important;
+        color: #fff;
+    }
+}
+
+
