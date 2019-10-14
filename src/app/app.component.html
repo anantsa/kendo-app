@@ -5,15 +5,14 @@
   <kendo-textbox-container floatingLabel="Your Full Name">
     <input class="text-box" kendoTextBox>
     <kendo-datepicker 
-      [formatPlaceholder]="{year: 'Y', month:'M', day:'D'}"
-      [navigation]="false" 
-      [readonly]="false" 
-      
-      [min]="min" [max]="max"  
-      (click)="dateChange()" 
-      [format]="'dd-MM-yyyy'"
-
-    ></kendo-datepicker>
+    [formatPlaceholder]="{year: 'Y', month:'M', day:'D'}" 
+    [navigation]="false" 
+    [readonly]="false"      
+    [min]="min" 
+    [max]="max" 
+    (click)="dateChange()" 
+    [format]="'dd-MM-yyyy'">
+    </kendo-datepicker>
   </kendo-textbox-container>
   <kendo-grid [height]="350" [kendoGridBinding]="sampleProducts" [resizable]="true" [reorderable]="true">
     <kendo-grid-column-group title="Products Information">
@@ -30,7 +29,4 @@
     </kendo-grid-column-group>
   </kendo-grid>
 </div>
-
-
-
 <router-outlet></router-outlet>
