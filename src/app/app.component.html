@@ -2,7 +2,8 @@
   <!-- <button kendoButton (click)="onButtonClick()" [primary]="true">
     Click Here
   </button>   -->
-  <kendo-textbox-container floatingLabel="Your Full Name">
+
+  <kendo-textbox-container floatingLabel="Your Full Name">    
     <input class="text-box" kendoTextBox>
     <kendo-datepicker 
       [formatPlaceholder]="{year: 'Y', month:'M', day:'D'}" 
@@ -14,8 +15,18 @@
       [format]="'dd-MM-yyyy'">
     </kendo-datepicker>
   </kendo-textbox-container>
+  <mat-form-field>
+      <mat-label>Cars</mat-label>
+      <mat-select disableOptionCentering panelClass ="mat-select-push-below" matNativeControl required>
+        <mat-option value="toyota">Toyota</mat-option>
+        <mat-option value="toyotaA">Toyota A</mat-option>
+        <mat-option value="toyotaB">Toyota B</mat-option>
+      </mat-select>
+    </mat-form-field>
 </div>
+<div class="table-container">
   <kendo-grid class="table-dimension"
+    [style.height.%]="100"
     [data]="sampleProducts" 
     [resizable]="true" 
     [pageSize]="5"
@@ -51,4 +62,5 @@
         width="150">
       </kendo-grid-column>
   </kendo-grid>
+</div>
 <router-outlet></router-outlet>

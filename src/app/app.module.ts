@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { GridModule, PDFModule, ExcelModule } from '@progress/kendo-angular-grid';
 import { InputsModule } from '@progress/kendo-angular-inputs';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
+import { MatSelectModule } from '@angular/material/select';
 @NgModule({
   declarations: [
     AppComponent
@@ -23,7 +24,8 @@ import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
     ExcelModule,
     GridModule,
     InputsModule,
-    DateInputsModule
+    DateInputsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
